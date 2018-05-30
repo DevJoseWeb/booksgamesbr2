@@ -11,6 +11,15 @@ import { StaticModule } from './static';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+//firebase
+import { environment } from '../environments/environment';
+//import { AngularFireModule } from 'angularfire2';
+//export const firebaseConfig = environment.firebaseConfigs;
+//import { AngularFirestoreModule } from 'angularfire2/firestore';
+
+//google
+//import { GoogleMapModule } from './google-map/google-map.module'
+
 @NgModule({
   imports: [
     // angular
@@ -26,7 +35,14 @@ import { AppComponent } from './app.component';
     SettingsModule,
 
     // app
-    AppRoutingModule
+    AppRoutingModule,
+
+    //FireBase
+   // AngularFireModule.initializeApp(firebaseConfig),
+  
+    /*AgmCoreModule.forRoot({
+      apiKey: environment.googleMapsKey
+    })*/
   ],
   declarations: [AppComponent],
   providers: [],
