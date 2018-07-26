@@ -1,3 +1,6 @@
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/DevJoseWeb/booksgamesbr2.svg)](https://greenkeeper.io/)
+
 git - guia prático
 apenas um guia prático para começar com git. sem complicação ;)
 
